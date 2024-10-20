@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>USER LOGIN</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script type="text/javascript" src="form.js " defer></script>
+</head>
+<body>
+    <div class="box">
+        <img src="media/user.png" height="100px" width="100px" class="user1">
+        <h1>Login Here</h1>
+        <form name="login" action="C:\Users\elaya\Desktop\webtechnology\restaurent\index.html" >
+            <div class="username">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Enter Username">
+            </div>
+
+            <div class="password">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter password">
+            </div>
+
+            <div id="errorbox"></div>
+            <button type="submit" onclick="return try_login()" > Submit</button>
+            <br>
+            <a href="register.html">Register for new account</a>
+        </form>
+    </div>
+</body>
+</html>

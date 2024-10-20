@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('media/back.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: sans-serif;  
+}
+.box{
+    width:200px;
+    margin:20vh auto 0 auto ;
+    background-color:whitesmoke;
+    border-radius:5px;
+    padding:30px;
+    position:relative;
+}
+.user{
+    position: absolute;
+    top: -65px;
+    left: calc(50% - 50px);
+}
+.user1{
+    position: absolute;
+    top: -65px;
+    left: calc(50% - 50px);
+}
+h1{
+    margin:0px;
+    padding: 20px 0 20px;
+    text-align: center;
+    font-size: 22px;
+    color: black;
+}
+label{
+    color: #f49126;
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+}
+input[type="text"], input[type="password"] ,input[type="email"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #265eb8;
+    font-size: 16px;
+}
+button[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #2196f3;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-top:10px;
+    margin-left:calc(50% - 40px)
+
+}
+button[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #0097a7;
+}
+a
+{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+    color: #069818;
+}
+a:hover
+{
+    color: red;
+}

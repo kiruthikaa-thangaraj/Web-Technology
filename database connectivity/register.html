@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>USER LOGIN</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script type="text/javascript" src="form.js"></script>
+</head>
+<body>
+    <div class="box">
+        <img src="media/user.png" height="100px" width="100px" class="user">
+        <h1>Register Here</h1>
+        <form name="register" action="register.php" method="POST">
+            <div class="username1">
+                <label for="username1">Username</label>
+                <input type="text" id="username1" name="username1" placeholder="Enter Username">
+            </div>
+
+            <div class="email">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter email address">
+            </div>
+
+            <div class="password1">
+                <label for="password1">Password</label>
+                <input type="password" id="password1" name="password1" placeholder="Enter password">
+            </div>
+
+            <div class="re_password">
+                <label for="re_password">Re-enter password</label>
+                <input type="password" id="re_password" name="re_password" placeholder="Re-enter password">
+            </div>
+
+            <div id="errorbox"></div>
+            <button type="submit" onclick="return _register()" >Register</button>
+            <br>
+            <a href="index.html">Existing account, Login!</a>
+        </form>
+    </div>
+</body>
+</html>
